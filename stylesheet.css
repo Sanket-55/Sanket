@@ -959,6 +959,61 @@ section {
         opacity: 1;
     }
 }
+/* Mobile styles for screens up to 768px */
+@media (max-width: 768px) {
+    .header {
+        flex-direction: column; /* Stack the header items vertically */
+        padding: 10px 5%;
+    }
+
+    .navbar {
+        flex-direction: column; /* Stack navbar items vertically */
+        align-items: center;
+        font-size: 18px;
+    }
+
+    .navbar a {
+        margin: 10px 0; /* Add space between items */
+    }
+
+    .home {
+        padding: 20px 5%; /* Reduce padding for mobile */
+        text-align: center;
+    }
+
+    .home-content h1 {
+        font-size: 36px; /* Smaller font size */
+    }
+
+    .home-content h3 {
+        font-size: 24px;
+    }
+
+    .home-content p {
+        font-size: 16px;
+    }
+
+    .projects-list {
+        grid-template-columns: 1fr; /* Single column layout for projects */
+        grid-gap: 20px; /* Reduce gap between items */
+    }
+
+    .container1 {
+        width: 100%; /* Make the container full-width */
+        padding: 20px;
+        margin: 0 auto;
+    }
+
+    .radial-bars .radial-bar {
+        width: 100%; /* Make radial bars full width */
+    }
+
+    .btn-box {
+        padding: 10px 20px; /* Adjust button size */
+        font-size: 14px;
+    }
+}
+
 
 
 
